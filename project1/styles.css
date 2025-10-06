@@ -1,0 +1,201 @@
+/* ===== General Styles ===== */
+body {
+    margin: 0;
+    font-family: 'Balsamiq Sans', cursive, sans-serif;
+    background-color: #fff8f0;
+    color: #333;
+}
+
+/* ===== Header ===== */
+header {
+    background-color: #ffe4e1;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 4px dashed #ffb6c1;
+}
+
+h1 {
+    font-family: 'Rubik Bubbles', cursive;
+    font-size: 3rem;
+    margin: 0;
+    color: #ff69b4;
+}
+
+/* ===== Navigation ===== */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #8b0000;
+    font-weight: bold;
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ff4500;
+}
+
+/* ===== Intro Section ===== */
+#intro {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.pawfile img.biophoto1-photo {
+    max-width: 250px;
+    border-radius: 50%;
+    border: 5px solid #ffb6c1;
+    margin-bottom: 20px;
+}
+
+h2.rubik-bubbles-regular {
+    font-family: 'Rubik Bubbles', cursive;
+    font-size: 2.2rem;
+    margin-bottom: 15px;
+    color: #d2691e;
+}
+
+h3.balsamiq-sans-regular {
+    font-family: 'Balsamiq Sans', cursive;
+    font-weight: 400;
+    font-size: 1.3rem;
+    line-height: 1.5;
+    color: #444;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pawdorable {
+    color: #ff69b4;
+    font-weight: bold;
+}
+
+.fluffy {
+    color: #dcdcdc;
+    font-style: italic;
+}
+
+.sunny {
+    color: #ffa500;
+}
+
+.furbulous {
+    color: #ff8c00;
+    font-weight: bold;
+}
+
+/* ===== Text Box Section ===== */
+#text-box {
+    padding: 40px 20px;
+    max-width: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.text-box {
+    background-color: white;
+    color: black;
+    padding: 20px 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.text-box h2 {
+    margin-top: 0;
+    font-size: 1.8rem;
+    color: #d2691e;
+}
+
+/* ===== Photos Section ===== */
+#photos {
+    padding: 40px 20px;
+    background-color: #f0f8ff;
+    max-width: 960px;
+    margin: 0 auto 60px;
+    text-align: center;
+}
+
+#photos h2 {
+    font-family: 'Rubik Bubbles', cursive;
+    font-size: 2.2rem;
+    color: #d2691e;
+    margin-bottom: 30px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin: 0 20px;
+}
+
+.grid-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    border: 3px solid #ffe4e1;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.grid-container img:hover {
+    transform: scale(1.05);
+}
+
+/* Social Media Links Section */
+#links {
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: #f9f9f9;
+    border-top: 3px solid #ffd6d6; /* soft pink border to match vibe */
+    margin-top: 3rem;
+}
+
+#links h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #ff6f91; /* pink-ish color for titles */
+}
+
+/* Social link styling */
+.social-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.75rem;
+    text-decoration: none;
+    font-family: 'Balsamiq Sans', cursive;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #333;
+    border: 2px solid #ff6f91;
+    padding: 0.5rem 1rem;
+    border-radius: 25px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.social-link:hover,
+.social-link:focus {
+    background-color: #ff6f91;
+    color: #fff;
+}
+
+/* Instagram icon size */
+.social-icon {
+    width: 30px;
+    height: 30px;
+    filter: invert(34%) sepia(84%) saturate(4944%) hue-rotate(320deg) brightness(95%) contrast(101%);
+    /* This filter gives a pink-ish Instagram color */
+}
